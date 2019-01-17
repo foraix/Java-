@@ -19,7 +19,7 @@ public class Wolf {
     }
 
     public void jump() {
-        System.out.println("浪会跳！");
+        System.out.println("狼会跳！");
     }
 
     public static void main(String[] args) {
