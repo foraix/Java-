@@ -1,6 +1,5 @@
 package net.tf.chapter04;
 
-import com.ityuan.codes.bean.Cat;
 
 /**
  * @author yuan

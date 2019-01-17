@@ -836,29 +836,5 @@ public class Wolf {
 
 > 基本数据类型不具备对象的特征，没有成员变量和方法可以被调用,主要是为了照顾传统程序员的开发习惯，为了解决八种基本数据类型不能当成Object类型使用的问题，Java为此提供了包装类
 
-~~~ java
-/**
- * @author yuan
- * @version 1.00
- * @time 2019/1/17 16:57
- * @desc
- */
-public class SimpleIntegerTest {
-    public static void main(String[] args) {
-        Integer a = 128;
-        Integer b = 128;
-        Integer c = 127;
-        Integer d = 127;
-        System.out.println(a == b);
-        System.out.println(c == d);
-    }
-}
 
-~~~
 
-> false
-> true
->
-> Process finished with exit code 0
-
-> 出现这种结果是因为Java考虑到-128-127是比较常用的数字，此时通过自动装箱来封装int数据，会将该数据放入常量池中，可以大大提高系统性能。
