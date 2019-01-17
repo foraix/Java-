@@ -862,3 +862,65 @@ public class SimpleIntegerTest {
 > Process finished with exit code 0
 
 > 出现这种结果是因为Java考虑到-128-127是比较常用的数字，此时通过自动装箱来封装int数据，会将该数据放入常量池中，可以大大提高系统性能。
+
+> 空对象可以访问它所属的类成员
+
+```java
+/**
+ * @author yuan
+ * @version 1.00
+ * @time 2019/1/17 17:29
+ * @desc 空对象可以访问它所属的类成员
+ */
+public class NullClass {
+    public static void test() {
+        System.out.println("Hello");
+    }
+    
+    public static void main(String[] args) {
+        NullClass nullClass = new NullClass();
+        nullClass = null;
+        nullClass.test();
+    }
+}
+```
+
+> Hello
+>
+> Process finished with exit code 0
+
+
+
+#### 单例类的创建
+
++ 如果一个类始终只能有一个实例，这称之为单例类,因为有时候创建对象并无意义，反而会增加系统开销
++ 构造器应该使用private修饰
++ 使用一个public方法来获取该类的实例
++ 需要缓存已经创建过的对象，所以使用成员变量来保存已经创建过的对象，否则无法知道是否已经创建过该对象，从而无法判断是否创建该对象
++ 因为需要被静态方法访问，所以引用static修饰符来进行修饰
+
+```java
+/**
+ * @author yuan
+ * @version 1.00
+ * @time 2019/1/17 17:40
+ * @desc 单例类的创建
+ */
+public class SingletonClass {
+    
+    private static SingletonClass singletonClass;
+    
+    private SingletonClass() {
+    }
+    
+    public static SingletonClass getInstance(){
+        if (singletonClass == null) {
+            singletonClass = new SingletonClass();
+        }
+        return singletonClass;
+    }
+}
+```
+
+
+
