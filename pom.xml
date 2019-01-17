@@ -8,5 +8,15 @@
     <artifactId>javase</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <dependencies>
+        <!-- lombok 表达式依赖 -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.4</version>
+            <scope>provided</scope>
+        </dependency>
+
+    </dependencies>
 
 </project>
