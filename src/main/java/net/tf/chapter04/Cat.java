@@ -7,5 +7,9 @@ package net.tf.chapter04;
  * @desc
  */
 public class Cat {
+    public static String nishuone = "cxx";
 
+    public static void main(String[] args) {
+        System.out.println(nishuone);
+    }
 }

@@ -862,3 +862,257 @@ public class SimpleIntegerTest {
 > Process finished with exit code 0
 
 > 出现这种结果是因为Java考虑到-128-127是比较常用的数字，此时通过自动装箱来封装int数据，会将该数据放入常量池中，可以大大提高系统性能。
+
+> 空对象可以访问它所属的类成员
+
+```java
+/**
+ * @author yuan
+ * @version 1.00
+ * @time 2019/1/17 17:29
+ * @desc 空对象可以访问它所属的类成员
+ */
+public class NullClass {
+    public static void test() {
+        System.out.println("Hello");
+    }
+    
+    public static void main(String[] args) {
+        NullClass nullClass = new NullClass();
+        nullClass = null;
+        nullClass.test();
+    }
+}
+```
+
+> Hello
+>
+> Process finished with exit code 0
+
+
+
+#### 单例类的创建
+
++ 如果一个类始终只能有一个实例，这称之为单例类,因为有时候创建对象并无意义，反而会增加系统开销
++ 构造器应该使用private修饰
++ 使用一个public方法来获取该类的实例
++ 需要缓存已经创建过的对象，所以使用成员变量来保存已经创建过的对象，否则无法知道是否已经创建过该对象，从而无法判断是否创建该对象
++ 因为需要被静态方法访问，所以引用static修饰符来进行修饰
+
+```java
+/**
+ * @author yuan
+ * @version 1.00
+ * @time 2019/1/17 17:40
+ * @desc 单例类的创建
+ */
+public class SingletonClass {
+    
+    private static SingletonClass singletonClass;
+    
+    private SingletonClass() {
+    }
+    
+    public static SingletonClass getInstance(){
+        if (singletonClass == null) {
+            singletonClass = new SingletonClass();
+        }
+        return singletonClass;
+    }
+}
+```
+
+
+
+<hr>
+
+2019年1月19日08:55:51
+
+#### 不可变类
+
+> 使用private修饰final，依然可以在子类中定义相同参数，名字，返回值的方法
+
+```java
+/**
+ * @author yuan
+ * @version 1.00
+ * @time 2019/1/19 9:00
+ * @desc
+ */
+public class FinalTest {
+    private final void test(String cc) {
+        System.out.println(cc);
+    }
+}
+
+class FinalTestOne extends FinalTest {
+    private final void test(String cc) {
+        System.out.println(cc);
+    }
+
+    public static void main(String[] args) {
+        FinalTestOne finalTestOne = new FinalTestOne();
+        finalTestOne.test("xx");
+    }
+}
+```
+
+> xx
+>
+> Process finished with exit code 0
+
+
+
+> 创建该类后，该类的实例变量是不可变的
+>
+> 使用final 和 private 修饰该类的成员变量
+>
+> 提供带参数构造器,使用参数初始化成员变量
+>
+> 仅提供getter方法
+>
+> 尽量重写hashcode和equals方法
+
+```java
+/**
+ * @author yuan
+ * @version 1.00
+ * @time 2019/1/19 9:04
+ * @desc 不可变类
+ */
+public class Address {
+    private final String postCode;
+    private final String detail;
+
+    public Address() {
+        this.detail = "";
+        this.postCode = "";
+    }
+
+    public Address(String postCode, String detail) {
+        this.postCode = postCode;
+        this.detail = detail;
+    }
+
+    public String getPostCode() {
+        return postCode;
+    }
+
+    public String getDetail() {
+        return detail;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == this) {
+            return true;
+        }
+        if (obj != null && obj.getClass() == this.getClass()) {
+            Address address = (Address) obj;
+            return address.postCode.equals(this.getPostCode()) && address.getDetail().equals(this.getDetail());
+        }
+        return false;
+    }
+
+    @Override
+    public int hashCode() {
+        return detail.hashCode() + postCode.hashCode() + 31;
+    }
+
+    public static void main(String[] args) {
+        Address address1 = new Address("xx","cc");
+        Address address2 = new Address("xx","cc");
+        System.out.println(address1.equals(address2));
+        System.out.println(address1.hashCode());
+        System.out.println(address1.getPostCode());
+    }
+}
+```
+
+
+
+> 创建不可变类的时候遇到变量时另一个对象时候解决办法就是构造器和需要引用的方法中使用new创建
+
+```java
+/**
+ * @author yuan
+ * @version 1.00
+ * @time 2019/1/19 9:18
+ * @desc
+ */
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+@ToString
+public class Name {
+    private String firstName;
+    private String lastName;
+}
+
+```
+
+> 未使用new的情况
+
+```java
+/**
+ * @author yuan
+ * @version 1.00
+ * @time 2019/1/19 9:19
+ * @desc 当引用对象是可变时候的解决办法
+ */
+public class Person {
+    private final Name name;
+
+    public Person(Name name) {
+        this.name = name;
+    }
+
+    public Name getName() {
+        return name;
+    }
+
+    public static void main(String[] args) {
+        Name name = new Name("yuan","tuo");
+        Person person = new Person(name);
+        System.out.println(person.getName());
+        name.setFirstName("han");
+        System.out.println(person.getName());
+    }
+}
+```
+
+> Name(firstName=yuan, lastName=tuo)
+> Name(firstName=han, lastName=tuo)
+>
+> Process finished with exit code 0
+
+> 使用new的情况
+
+```java
+/**
+ * @author yuan
+ * @version 1.00
+ * @time 2019/1/19 9:19
+ * @desc 当引用对象是可变时候的解决办法
+ */
+public class Person {
+    private final Name name;
+
+    public Person(Name name) {
+        this.name = new Name(name.getFirstName(),name.getLastName());
+    }
+
+    public Name getName() {
+        return new Name(name.getFirstName(),name.getLastName());
+    }
+
+    public static void main(String[] args) {
+        Name name = new Name("yuan","tuo");
+        Person person = new Person(name);
+        System.out.println(person.getName());
+        name.setFirstName("han");
+        System.out.println(person.getName());
+    }
+}
+```

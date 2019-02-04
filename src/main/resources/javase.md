@@ -924,3 +924,195 @@ public class SingletonClass {
 
 
 
+<hr>
+
+2019年1月19日08:55:51
+
+#### 不可变类
+
+> 使用private修饰final，依然可以在子类中定义相同参数，名字，返回值的方法
+
+```java
+/**
+ * @author yuan
+ * @version 1.00
+ * @time 2019/1/19 9:00
+ * @desc
+ */
+public class FinalTest {
+    private final void test(String cc) {
+        System.out.println(cc);
+    }
+}
+
+class FinalTestOne extends FinalTest {
+    private final void test(String cc) {
+        System.out.println(cc);
+    }
+
+    public static void main(String[] args) {
+        FinalTestOne finalTestOne = new FinalTestOne();
+        finalTestOne.test("xx");
+    }
+}
+```
+
+> xx
+>
+> Process finished with exit code 0
+
+
+
+> 创建该类后，该类的实例变量是不可变的
+>
+> 使用final 和 private 修饰该类的成员变量
+>
+> 提供带参数构造器,使用参数初始化成员变量
+>
+> 仅提供getter方法
+>
+> 尽量重写hashcode和equals方法
+
+```java
+/**
+ * @author yuan
+ * @version 1.00
+ * @time 2019/1/19 9:04
+ * @desc 不可变类
+ */
+public class Address {
+    private final String postCode;
+    private final String detail;
+
+    public Address() {
+        this.detail = "";
+        this.postCode = "";
+    }
+
+    public Address(String postCode, String detail) {
+        this.postCode = postCode;
+        this.detail = detail;
+    }
+
+    public String getPostCode() {
+        return postCode;
+    }
+
+    public String getDetail() {
+        return detail;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == this) {
+            return true;
+        }
+        if (obj != null && obj.getClass() == this.getClass()) {
+            Address address = (Address) obj;
+            return address.postCode.equals(this.getPostCode()) && address.getDetail().equals(this.getDetail());
+        }
+        return false;
+    }
+
+    @Override
+    public int hashCode() {
+        return detail.hashCode() + postCode.hashCode() + 31;
+    }
+
+    public static void main(String[] args) {
+        Address address1 = new Address("xx","cc");
+        Address address2 = new Address("xx","cc");
+        System.out.println(address1.equals(address2));
+        System.out.println(address1.hashCode());
+        System.out.println(address1.getPostCode());
+    }
+}
+```
+
+
+
+> 创建不可变类的时候遇到变量时另一个对象时候解决办法就是构造器和需要引用的方法中使用new创建
+
+```java
+/**
+ * @author yuan
+ * @version 1.00
+ * @time 2019/1/19 9:18
+ * @desc
+ */
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+@ToString
+public class Name {
+    private String firstName;
+    private String lastName;
+}
+
+```
+
+> 未使用new的情况
+
+```java
+/**
+ * @author yuan
+ * @version 1.00
+ * @time 2019/1/19 9:19
+ * @desc 当引用对象是可变时候的解决办法
+ */
+public class Person {
+    private final Name name;
+
+    public Person(Name name) {
+        this.name = name;
+    }
+
+    public Name getName() {
+        return name;
+    }
+
+    public static void main(String[] args) {
+        Name name = new Name("yuan","tuo");
+        Person person = new Person(name);
+        System.out.println(person.getName());
+        name.setFirstName("han");
+        System.out.println(person.getName());
+    }
+}
+```
+
+> Name(firstName=yuan, lastName=tuo)
+> Name(firstName=han, lastName=tuo)
+>
+> Process finished with exit code 0
+
+> 使用new的情况
+
+```java
+/**
+ * @author yuan
+ * @version 1.00
+ * @time 2019/1/19 9:19
+ * @desc 当引用对象是可变时候的解决办法
+ */
+public class Person {
+    private final Name name;
+
+    public Person(Name name) {
+        this.name = new Name(name.getFirstName(),name.getLastName());
+    }
+
+    public Name getName() {
+        return new Name(name.getFirstName(),name.getLastName());
+    }
+
+    public static void main(String[] args) {
+        Name name = new Name("yuan","tuo");
+        Person person = new Person(name);
+        System.out.println(person.getName());
+        name.setFirstName("han");
+        System.out.println(person.getName());
+    }
+}
+```
