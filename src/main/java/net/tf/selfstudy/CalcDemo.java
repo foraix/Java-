@@ -4,7 +4,9 @@ package net.tf.selfstudy;
  * @author yuan
  * @version 1.00
  * @time 2019/3/4 21:31
- * @desc
+ * @desc lambda方式一
  */
-public class CalcDemo {
+@FunctionalInterface
+public interface CalcDemo {
+    int calc(int x, int y);
 }

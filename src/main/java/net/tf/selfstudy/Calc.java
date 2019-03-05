@@ -7,4 +7,6 @@ package net.tf.selfstudy;
  * @desc
  */
 public interface Calc {
+    int add(int x, int y);
+    int mult(int x, int y);
 }

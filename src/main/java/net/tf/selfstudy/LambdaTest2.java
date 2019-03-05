@@ -7,4 +7,13 @@ package net.tf.selfstudy;
  * @desc
  */
 public class LambdaTest2 {
+    public static void main(String[] args) {
+        CalcDemo calcDemo = (x, y) -> x + y;
+        System.out.println(calcDemo.calc(5,7));
+
+        CalcDemo calcDemo1 = ((x, y) -> x * y);
+        System.out.println(calcDemo1.calc(34,10));
+
+
+    }
 }

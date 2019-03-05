@@ -1,10 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/net/tf/selfstudy/LambdaTest.java" line="61" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="fa87cea2-5083-41a7-925e-133243f26805" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/tf/selfstudy/InnerClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/tf/selfstudy/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/tf/selfstudy/ColorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/tf/chapter05/Wolf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/tf/chapter05/Wolf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/tf/selfstudy/Calc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/tf/selfstudy/Calc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/tf/selfstudy/CalcDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/tf/selfstudy/CalcDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/tf/selfstudy/CalcImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/tf/selfstudy/CalcImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/tf/selfstudy/InnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/tf/selfstudy/InnerClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/tf/selfstudy/LambdaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/tf/selfstudy/LambdaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/tf/selfstudy/LambdaTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/tf/selfstudy/LambdaTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/javase.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/javase.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/javase.md" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/javase.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/tf/chapter04/ArraysTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/tf/chapter04/ArraysTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/tf/chapter04/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/tf/chapter04/Cat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/tf/chapter04/PrimitiveArrayTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/tf/chapter04/PrimitiveArrayTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/tf/chapter05/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/tf/chapter05/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/tf/chapter05/Wolf.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/tf/chapter05/Wolf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/tf/chapter06/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/tf/chapter06/Address.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/tf/chapter06/CacheClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/tf/chapter06/CacheClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/tf/chapter06/EqualsPerson.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/tf/chapter06/EqualsPerson.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/tf/chapter06/FinalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/tf/chapter06/FinalTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/tf/chapter06/FinalTestOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/tf/chapter06/FinalTestOne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/tf/chapter06/InterfaceA.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/tf/chapter06/InterfaceA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/tf/chapter06/InterfaceB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/tf/chapter06/InterfaceB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/tf/chapter06/InterfaceC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/tf/chapter06/InterfaceC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/tf/chapter06/InterfaceExtendsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/tf/chapter06/InterfaceExtendsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/tf/chapter06/Name.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/tf/chapter06/Name.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/tf/chapter06/NullClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/tf/chapter06/NullClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/tf/chapter06/Output.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/tf/chapter06/Output.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/tf/chapter06/OutputTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/tf/chapter06/OutputTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/tf/chapter06/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/tf/chapter06/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/tf/chapter06/SimpleIntegerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/tf/chapter06/SimpleIntegerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/tf/chapter06/SingletonClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/tf/chapter06/SingletonClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/tf/chapter06/StringClassTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/tf/chapter06/StringClassTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/tf/selfstudy/InnerClass$1InnerClass1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/tf/selfstudy/InnerClass$1InnerClass1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/tf/selfstudy/InnerClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/tf/selfstudy/InnerClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/tf/selfstudy/InnerClass2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/tf/selfstudy/InnerClass2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/tf/selfstudy/InnerClass2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/tf/selfstudy/InnerClass2.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,110 +55,135 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/chapter06/InterfaceExtendsTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/selfstudy/InnerClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/chapter06/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="479">
+              <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
               <folding>
-                <element signature="e#198#199#0" expanded="true" />
-                <element signature="e#274#275#0" expanded="true" />
+                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#336#337#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/chapter06/CacheClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        <entry file="file://$PROJECT_DIR$/src/main/resources/javase.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="588">
+                <caret line="1248" selection-start-line="1248" selection-end-line="1248" />
+                <folding>
+                  <element signature="e#68#69#0" expanded="true" />
+                  <element signature="e#116#117#0" expanded="true" />
+                  <element signature="e#212#213#0" expanded="true" />
+                  <element signature="e#255#256#0" expanded="true" />
+                  <element signature="e#283#284#0" expanded="true" />
+                  <element signature="e#320#321#0" expanded="true" />
+                  <element signature="e#145#146#0" expanded="true" />
+                  <element signature="e#188#189#0" expanded="true" />
+                  <element signature="e#138#139#0" expanded="true" />
+                  <element signature="e#176#177#0" expanded="true" />
+                  <element signature="e#258#259#0" expanded="true" />
+                  <element signature="e#296#297#0" expanded="true" />
+                  <element signature="e#408#409#0" expanded="true" />
+                  <element signature="e#439#440#0" expanded="true" />
+                  <element signature="e#471#472#0" expanded="true" />
+                  <element signature="e#500#501#0" expanded="true" />
+                  <element signature="e#917#918#0" expanded="true" />
+                  <element signature="e#984#985#0" expanded="true" />
+                  <element signature="e#170#171#0" expanded="true" />
+                  <element signature="e#202#203#0" expanded="true" />
+                  <element signature="e#230#231#0" expanded="true" />
+                  <element signature="e#257#258#0" expanded="true" />
+                  <element signature="e#170#171#0" expanded="true" />
+                  <element signature="e#246#247#0" expanded="true" />
+                  <element signature="e#274#275#0" expanded="true" />
+                  <element signature="e#345#346#0" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/chapter04/Cat.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/selfstudy/LambdaTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/chapter04/ArraysTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/chapter06/Address.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="272">
+              <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="37" selection-end-column="16" />
               <folding>
-                <element signature="e#438#439#0" expanded="true" />
-                <element signature="e#469#470#0" expanded="true" />
-                <element signature="e#502#503#0" expanded="true" />
-                <element signature="e#531#532#0" expanded="true" />
-                <element signature="e#950#951#0" expanded="true" />
-                <element signature="e#1017#1018#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#225#226#0" expanded="true" />
+                <element signature="e#269#270#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/selfstudy/Color.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/selfstudy/InnerClass.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/selfstudy/ColorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="548">
-              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+            <state relative-caret-position="283">
+              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/selfstudy/Calc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="8" column="20" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/selfstudy/CalcImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
               <folding>
-                <element signature="e#266#267#0" expanded="true" />
-                <element signature="e#318#319#0" expanded="true" />
-                <element signature="e#634#635#0" expanded="true" />
-                <element signature="e#670#671#0" expanded="true" />
+                <element signature="e#188#189#0" expanded="true" />
+                <element signature="e#212#213#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/chapter05/Wolf.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/chapter04/PrimitiveArrayTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/selfstudy/CalcDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="336">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/classes/javase.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/selfstudy/LambdaTest2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/java/jdk/src.zip!/java/lang/Runnable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="507">
+              <caret line="69" selection-start-line="69" selection-end-line="69" />
             </state>
           </provider>
         </entry>
@@ -131,6 +194,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -167,6 +231,14 @@
         <option value="$PROJECT_DIR$/src/main/java/net/tf/chapter06/InterfaceExtendsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/tf/chapter05/Wolf.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/tf/selfstudy/InnerClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/tf/selfstudy/RunableTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/tf/selfstudy/Calc.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/tf/selfstudy/CalcImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/tf/selfstudy/LambdaTest2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/tf/selfstudy/CalcDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/tf/selfstudy/LambdaTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/tf/selfstudy/Color.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/tf/selfstudy/ColorTest.java" />
       </list>
     </option>
   </component>
@@ -263,14 +335,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551626337724" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551774415655" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -279,13 +351,14 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="net.tf.chapter04" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="H:\java\basejava\src\main\resources" />
       <recent name="H:\java\basejava\src\main\java\net\tf\chapter05" />
       <recent name="H:\java\basejava\src\main\java\net\tf\chapter04" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="net.tf.selfstudy" />
+      <recent name="net.tf.chapter04" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -300,23 +373,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InnerClass2">
+  <component name="RunManager" selected="JUnit.ColorTest.colorTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Cat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="net.tf.chapter04.Cat" />
-      <module name="basejava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="net.tf.chapter04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -349,13 +408,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterfaceExtendsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="net.tf.chapter06.InterfaceExtendsTest" />
+    <configuration name="LambdaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.tf.selfstudy.LambdaTest" />
       <module name="basejava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="net.tf.chapter06.*" />
+          <option name="PATTERN" value="net.tf.selfstudy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -363,13 +422,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OutputTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="net.tf.chapter06.OutputTest" />
+    <configuration name="LambdaTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.tf.selfstudy.LambdaTest2" />
       <module name="basejava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="net.tf.chapter06.*" />
+          <option name="PATTERN" value="net.tf.selfstudy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -379,6 +438,23 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ColorTest.colorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="basejava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.tf.selfstudy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="net.tf.selfstudy" />
+      <option name="MAIN_CLASS_NAME" value="net.tf.selfstudy.ColorTest" />
+      <option name="METHOD_NAME" value="colorTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -408,11 +484,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ColorTest.colorTest" />
+        <item itemvalue="Application.LambdaTest" />
+        <item itemvalue="Application.LambdaTest2" />
         <item itemvalue="Application.InnerClass2" />
         <item itemvalue="Application.InnerClass" />
-        <item itemvalue="Application.InterfaceExtendsTest" />
-        <item itemvalue="Application.OutputTest" />
-        <item itemvalue="Application.Cat" />
       </list>
     </recent_temporary>
   </component>
@@ -430,18 +506,29 @@
       <workItem from="1549273006030" duration="1960000" />
       <workItem from="1550061301974" duration="1896000" />
       <workItem from="1551582340894" duration="2335000" />
-      <workItem from="1551624314742" duration="2007000" />
+      <workItem from="1551624314742" duration="2600000" />
+      <workItem from="1551704592863" duration="7258000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="ColorTest_colorTest - 2019.03.04 at 22h 59m 29s.xml">
+      <configuration name="ColorTest.colorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ColorTest_colorTest - 2019.03.04 at 23h 01m 20s.xml">
+      <configuration name="ColorTest.colorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ColorTest_colorTest - 2019.03.04 at 23h 01m 37s.xml">
+      <configuration name="ColorTest.colorTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17739000" />
+    <option name="totallyTimeSpent" value="25590000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1065" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20578778" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17738478" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -450,7 +537,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32894737" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4994641" visible="true" weight="0.23389831" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49785638" weight="0.33559322" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.042937852" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -458,9 +545,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3299435" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4989282" weight="0.13446328" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5005359" side_tool="true" visible="true" weight="0.23389831" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4994641" weight="0.58305085" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49678457" visible="true" weight="0.47231638" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50321543" side_tool="true" visible="true" weight="0.47231638" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49785638" weight="0.58305085" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -477,6 +564,20 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/net/tf/selfstudy/LambdaTest.java</url>
+          <line>25</line>
+          <properties class="net.tf.selfstudy.LambdaTest" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/chapter04/first.java" />
@@ -577,16 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/javase.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30604">
-            <caret line="1093" column="15" selection-start-line="1093" selection-start-column="15" selection-end-line="1093" selection-end-column="15" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/chapter06/InterfaceExtendsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
@@ -626,6 +717,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/chapter06/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#950#951#0" expanded="true" />
+            <element signature="e#1017#1018#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/chapter05/Wolf.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
@@ -648,31 +754,117 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/chapter06/Address.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/selfstudy/InnerClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="479">
+          <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
           <folding>
-            <element signature="e#438#439#0" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#950#951#0" expanded="true" />
-            <element signature="e#1017#1018#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/selfstudy/InnerClass.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/javase.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="588">
+            <caret line="1248" selection-start-line="1248" selection-end-line="1248" />
+            <folding>
+              <element signature="e#68#69#0" expanded="true" />
+              <element signature="e#116#117#0" expanded="true" />
+              <element signature="e#212#213#0" expanded="true" />
+              <element signature="e#255#256#0" expanded="true" />
+              <element signature="e#283#284#0" expanded="true" />
+              <element signature="e#320#321#0" expanded="true" />
+              <element signature="e#145#146#0" expanded="true" />
+              <element signature="e#188#189#0" expanded="true" />
+              <element signature="e#138#139#0" expanded="true" />
+              <element signature="e#176#177#0" expanded="true" />
+              <element signature="e#258#259#0" expanded="true" />
+              <element signature="e#296#297#0" expanded="true" />
+              <element signature="e#408#409#0" expanded="true" />
+              <element signature="e#439#440#0" expanded="true" />
+              <element signature="e#471#472#0" expanded="true" />
+              <element signature="e#500#501#0" expanded="true" />
+              <element signature="e#917#918#0" expanded="true" />
+              <element signature="e#984#985#0" expanded="true" />
+              <element signature="e#170#171#0" expanded="true" />
+              <element signature="e#202#203#0" expanded="true" />
+              <element signature="e#230#231#0" expanded="true" />
+              <element signature="e#257#258#0" expanded="true" />
+              <element signature="e#170#171#0" expanded="true" />
+              <element signature="e#246#247#0" expanded="true" />
+              <element signature="e#274#275#0" expanded="true" />
+              <element signature="e#345#346#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/java/jdk/src.zip!/java/lang/Runnable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+        <state relative-caret-position="507">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/selfstudy/Calc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/selfstudy/CalcImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
           <folding>
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/selfstudy/LambdaTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/selfstudy/CalcDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/selfstudy/LambdaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="37" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/selfstudy/Color.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/selfstudy/ColorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
         </state>
       </provider>
     </entry>

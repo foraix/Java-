@@ -1116,3 +1116,134 @@ public class Person {
     }
 }
 ```
+
+<hr/>
+
+
+
+<hr>
+
+2019年3月4日21:05:58
+
+#### lambda表达式
+
+> Java为了扩充匿名方法在Java中新增的特性
+>
+> Java中使用匿名方法必须对于接口中的一个抽象方法
+>
+> 一个接口中只有一个抽象方法称之为函数式接口例如runable接口
+
+基础应用
+
+``` java
+package net.tf.selfstudy;
+
+/**
+ * @author yuan
+ * @version 1.00
+ * @time 2019/3/4 21:16
+ * @desc lambda简单编程
+ */
+public class LambdaTest {
+
+    Runnable runnable1 = new Runnable() {
+        @Override
+        public void run() {
+            System.out.println("普通方式");
+        }
+    };
+
+    Runnable runnable = () -> System.out.println("lambda方式");
+
+
+
+    public static void main(String[] args) {
+        LambdaTest lambdaTest = new LambdaTest();
+        lambdaTest.runnable.run();
+
+        lambdaTest.runnable1.run();
+    }
+}
+```
+
+
+
+lambda函数式编程简单应用
+
+```java
+package net.tf.selfstudy;
+
+/**
+ * @author yuan
+ * @version 1.00
+ * @time 2019/3/4 21:35
+ * @desc
+ */
+public class LambdaTest2 {
+    public static void main(String[] args) {
+        CalcDemo calcDemo = (x, y) -> x + y;
+        System.out.println(calcDemo.calc(5,7));
+
+        CalcDemo calcDemo1 = ((x, y) -> x * y);
+        System.out.println(calcDemo1.calc(34,10));
+        
+
+    }
+}
+```
+
+```java
+package net.tf.selfstudy;
+
+/**
+ * @author yuan
+ * @version 1.00
+ * @time 2019/3/4 21:31
+ * @desc lambda方式一
+ */
+@FunctionalInterface
+public interface CalcDemo {
+     int calc(int x, int y);
+}
+```
+
+使用lambda遍历
+
+```java
+String[] strings = {"xx","oo","uu","pp"};
+List list = new ArrayList();
+list = Arrays.asList(strings);
+list.forEach(System.out::println);
+list.forEach(user -> {
+    System.out.println("xxxxs" + user);
+});
+```
+
+使用lambda删除指定元素
+
+```java 
+String[] strings1 = {"xx", "oo", "uu", "pp"};
+
+List<String> list1 = new ArrayList<>();
+for (String s : strings1
+     ) {
+    list1.add(s);
+}
+
+//传统迭代器删除指定元素
+Iterator iterator = list1.iterator();
+while (iterator.hasNext()) {
+    String buffer = (String) iterator.next();
+    if ("xx".equals(buffer)) {
+        iterator.remove();
+    }
+}
+
+//使用lambda删除指定元素
+list1.removeIf(buffer -> "oo".equals(buffer));
+list1.removeIf(b -> "uu".equals(b));
+
+//使用lambda打印结果
+list1.forEach(System.out::println);
+```
+
