@@ -1247,3 +1247,6 @@ list1.removeIf(b -> "uu".equals(b));
 list1.forEach(System.out::println);
 ```
 
+#### 枚举
+
+> 枚举就是让某个变量的取值只能为若干个值中的其中一个
