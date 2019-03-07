@@ -1250,3 +1250,66 @@ list1.forEach(System.out::println);
 #### 枚举
 
 > 枚举就是让某个变量的取值只能为若干个值中的其中一个
+
+``` java
+package net.tf.selfstudy;
+
+/**
+ * @author yuan
+ * @version 1.00
+ * @time 2019/3/4 22:56
+ * @desc 枚举类的使用
+ */
+public enum Color {
+    GREEN,YELLOW,BULE;
+}
+```
+
+```java
+package net.tf.selfstudy;
+
+import org.junit.Test;
+
+import java.util.EnumSet;
+
+/**
+ * @author yuan
+ * @version 1.00
+ * @time 2019/3/4 22:57
+ * @desc
+ */
+public class ColorTest {
+    private Color color = Color.GREEN;
+
+    @Test
+    public void colorTest(){
+        Color color = Color.BULE;
+        System.out.println(color);
+        //使用ordinal()打印元素对应编号
+        System.out.println(color.ordinal());
+    }
+
+    public static void main(String[] args) {
+
+        //使用EnumSet遍历枚举
+        EnumSet<Color> enumSet = EnumSet.allOf(Color.class);
+        for (Color c : enumSet
+             ) {
+            System.out.println(c);
+        }
+    }
+}
+```
+
+
+
+<hr>
+
+2019年3月7日15:19:33
+
+#### 异常处理
+
+> error：java虚拟机无法解决的严重问题,如资源耗尽，内部错误
+>
+> exception：分为编译时异常（运行javac）和运行时异常（运行java）
+
