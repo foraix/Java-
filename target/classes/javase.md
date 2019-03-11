@@ -1313,3 +1313,125 @@ public class ColorTest {
 >
 > exception：分为编译时异常（运行javac）和运行时异常（运行java）
 
+> 抛：发现异常时候将该异常对象类型抛给调用者，一旦抛出异常该方法体不再执行
+>
+> 抓：直接抓住异常进行处理
+>
+> 如果catch中的异常是并列的，则上下都可以，如果是从属关系，则小的放上面
+
+
+
+```java
+package net.tf.selfstudy.SGGJavaSE.Exception;
+
+/**
+ * @author yuan
+ * @version 1.00
+ * @time 2019/3/7 21:54
+ * @desc
+ */
+public class FinallyTest {
+    public int testFinally() {
+        try {
+            return 1;
+        } catch (Exception e) {
+            return 2;
+        } finally {
+            return 3;
+        }
+    }
+
+    public static void main(String[] args) {
+        FinallyTest finallyTest = new FinallyTest();
+        int i = finallyTest.testFinally();
+        System.out.println(i);
+    }
+}
+//结果会返回3
+//如果出现异常依然是3
+```
+
+
+
+```java
+package net.tf.selfstudy.SGGJavaSE.Exception;
+
+/**
+ * @author yuan
+ * @version 1.00
+ * @time 2019/3/7 22:09
+ * @desc 测试自定义异常
+ */
+public class Circle {
+    private double radius;
+
+    public Circle(double radius) {
+        this.radius = radius;
+    }
+
+    public double getRadius() {
+        return radius;
+    }
+
+    public void setRadius(double radius) {
+        this.radius = radius;
+    }
+
+    /**
+     * 自定义的圆比较方法
+     *
+     * @param object
+     * @return
+     */
+    public int compareTo(Object object) {
+        if (object == this) {
+            return 0;
+        } else if (object instanceof Circle){
+            Circle circle = (Circle) object;
+            if (this.radius > circle.radius) {
+                return 1;
+            } else if (this.radius == circle.radius) {
+                return 0;
+            } else {
+                return -1;
+            }
+        }
+        //此时应该手动定义一个类型
+//        throw new RuntimeException("传入类型出错");
+        throw new MyException();
+    }
+
+    public static void main(String[] args) {
+        Circle circle = new Circle(1.2);
+        Circle circle1 = new Circle(1.1);
+        System.out.println(circle.compareTo(circle1));
+        System.out.println(circle.compareTo("xx"));
+    }
+}
+```
+
+```java
+package net.tf.selfstudy.SGGJavaSE.Exception;
+
+/**
+ * @author yuan
+ * @version 1.00
+ * @time 2019/3/7 22:25
+ * @desc
+ */
+public class MyException extends RuntimeException{
+    /**
+     * 提供唯一序列号
+     */
+    static final long serialVersionUID = -7034897190745766560L;
+
+    public MyException() {
+        super("传入类型不匹配");
+    }
+
+    public MyException(String message) {
+        super(message);
+    }
+}
+```
+
