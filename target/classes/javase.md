@@ -1303,7 +1303,77 @@ public class ColorTest {
 
 
 
+自定义枚举类
+
+```java
+package net.tf.selfstudy.SGGJavaSE.Enum;
+
+/**
+ * @author yuan
+ * @version 1.00
+ * @time 2019/3/11 20:04
+ * @desc 实现一个简单的自定义枚举类
+ */
+public class   Session {;
+
+    /**
+     * 创建枚举类的对象
+     */
+
+    private static final Session SPRING = new Session("spring","春天");
+    /**
+     * 使其不可被修改
+     */
+    private final String name;
+    private final String desc;
+
+    /**
+     * 提供私有构造器，内部构造
+     */
+    Session(String name, String desc) {
+        this.name = name;
+        this.desc = desc;
+    }
+
+    /**
+     * 通过公用方法调用
+     */
+    public String getName() {
+        return name;
+    }
+
+    public String getDesc() {
+        return desc;
+    }
+
+    public void show() {
+        System.out.println("这是一个季节");
+    }
+
+    @Override
+    public String toString() {
+        return "Session{" +
+                "name='" + name + '\'' +
+                ", desc='" + desc + '\'' +
+                '}';
+    }
+
+    public static void main(String[] args) {
+        Session session = Session.SPRING;
+        session.toString();
+        System.out.println(session.desc);
+    }
+}
+```
+
+JDK1.5以后提供了枚举类
+
+
+
 <hr>
+
+
+
 
 2019年3月7日15:19:33
 
@@ -1434,4 +1504,149 @@ public class MyException extends RuntimeException{
     }
 }
 ```
+
+
+
+<hr>
+
+```java
+package net.tf.selfstudy.SGGJavaSE.Enum;
+
+/**
+ * @author yuan
+ * @version 1.00
+ * @time 2019/3/11 20:19
+ * @desc 使用enum定义枚举类
+ */
+interface EnumINfa {
+    /**
+     * 枚举类也可以实现接口，可以常规实现，这里在声明中实现
+     */
+    void show();
+}
+
+public enum SessionEnum implements EnumINfa{
+    /**
+     * 季节的枚举类
+     */
+    SPRING("spring", "春天") {
+        @Override
+        public void show() {
+            System.out.println("xxx");
+        }
+    },
+    WINNER("winner", "冬天") {
+        @Override
+        public void show() {
+            System.out.println("xxx");
+        }
+    };
+
+    private final String name;
+    private final String desc;
+
+    private SessionEnum(String name, String desc) {
+        this.name = name;
+        this.desc = desc;
+    }
+
+    @Override
+    public String toString() {
+        return "SessionEnum{" +
+                "name='" + name + '\'' +
+                ", desc='" + desc + '\'' +
+                '}';
+    }
+
+    public static void main(String[] args) {
+        //注意名称不要出错，否则会报异常
+        SessionEnum sessionEnum = SessionEnum.valueOf("SPRING");
+        //可以使用values来遍历枚举类
+        SessionEnum[] enums = SessionEnum.values();
+        for (SessionEnum s : enums
+        ) {
+            System.out.println(s);
+        }
+    }
+}
+```
+
+
+
+#### 注解
+
+> 从JDK1.5之后，开始支持注解，也就是对元数据的支持（MetaData）
+>
+> 使用Override 可以减少方法名出错，阿里巴巴开发手册也建议使用
+>
+> 元注解：JDk的annotation用于修饰其他annotation的定义
+
+注解@Retention可以用来修饰注解，是注解的注解，称为元注解。
+Retention注解有一个属性value，是RetentionPolicy类型的，Enum RetentionPolicy是一个枚举类型，
+这个枚举决定了Retention注解应该如何去保持，也可理解为Rentention 搭配 RententionPolicy使用。RetentionPolicy有3个值：CLASS  RUNTIME   SOURCE
+按生命周期来划分可分为3类：
+
+> 1、RetentionPolicy.SOURCE：注解只保留在源文件，当Java文件编译成class文件的时候，注解被遗弃；
+> 2、RetentionPolicy.CLASS：注解被保留到class文件，但jvm加载class文件时候被遗弃，这是默认的生命周期；
+> 3、RetentionPolicy.RUNTIME：注解不仅被保存到class文件中，jvm加载class文件之后，仍然存在；
+
+
+
+> 这3个生命周期分别对应于：Java源文件(.java文件) ---> .class文件 ---> 内存中的字节码。
+> 那怎么来选择合适的注解生命周期呢？
+> 首先要明确生命周期长度 SOURCE < CLASS < RUNTIME ，所以前者能作用的地方后者一定也能作用。
+> 一般如果需要在运行时去动态获取注解信息，那只能用 RUNTIME 注解，比如@Deprecated使用RUNTIME注解
+> 如果要在编译时进行一些预处理操作，比如生成一些辅助代码（如 ButterKnife），就用 CLASS注解；
+> 如果只是做一些检查性的操作，比如 @Override 和 @SuppressWarnings，使用SOURCE 注解。
+
+注解@Override用在方法上，当我们想重写一个方法时，在方法上加@Override，当我们方法的名字出错时，编译器就会报错
+注解@Deprecated，用来表示某个类或属性或方法已经过时，不想别人再用时，在属性和方法上用@Deprecated修饰
+注解@SuppressWarnings用来压制程序中出来的警告，比如在没有用泛型或是方法已经过时的时候
+
+
+
+> @Target 用于修饰哪些结构可以被该注释修饰
+>
+> @Documented 用于修饰是否被Javadov文档保留
+>
+> @Inherited 被修饰的annotation将具有继承性（应用较少）
+
+
+
+#### IO流
+
+> Java.io.File 仅涉及到文件的创建，删除，重命名等，涉及到内容的操作就需要使用流操作
+>
+> 使用file.renameTo()，需要注意被复制对象不存在，复制对象存在
+>
+> mkDir() 上层文件目录必须存在才能创建成功
+>
+> mkDirs() 如果上层文件目录不错在则一并创建
+
+
+
+2019年3月12日18:57:41
+
+> 按照操作的数据单位来分为字节流（8bit,一般处理文件，音视频）字符流（16bit，一般处理文本 ）
+>
+> 按照流向分为输入流，输出流
+>
+> 按照角色来说，节点流，处理流（FileInputStream FileoutputStream FileReader FileWriter）
+
+| 抽象基类 | 字节流       | 字符流 |
+| -------- | ------------ | ------ |
+| 输入流   | InputStream  | Reader |
+| 输出流   | OutputStream | Writer |
+
+
+
+<hr>
+
+2019年3月13日21:50:12
+
+> 字节数组 -> 字符串 （解码）
+>
+> 字符串 -> 字节数则 （编码）
+
+
 
