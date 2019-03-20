@@ -6,18 +6,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa87cea2-5083-41a7-925e-133243f26805" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/736462.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IOxt.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dbcp.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/tf/selfstudy/SGGJavaSE/IO/IO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/tf/selfstudy/SGGJavaSE/IO/TestIO2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/tf/selfstudy/SGGJavaSE/IO/TestInOutPutStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/tf/selfstudy/SGGJavaSE/thread/TestThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/tf/selfstudy/SGGJavaSE/thread/TestThread1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/tf/selfstudy/SGGJavaSE/thread/TestThread2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/tf/selfstudy/SGGJavaSE/thread/TestWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/tf/selfstudy/SGGJavaSE/thread/TestWindow1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/tf/selfstudy/SGGJavaSE/thread/TestWindow3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/tf/selfstudy/SGGJavaSE/thread/TestWindow5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/javase.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/javase.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/javase.md" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/javase.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/tf/selfstudy/SGGJavaSE/Enum/SessionEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/tf/selfstudy/SGGJavaSE/Enum/SessionEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thread.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/thread.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/tf/selfstudy/SGGJavaSE/thread/SubThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/tf/selfstudy/SGGJavaSE/thread/SubThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/tf/selfstudy/SGGJavaSE/thread/TestThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/tf/selfstudy/SGGJavaSE/thread/TestThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/thread.md" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/thread.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,38 +28,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/selfstudy/SGGJavaSE/IO/TestIO2.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/selfstudy/SGGJavaSE/thread/TestWindow1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
-              <caret line="33" column="28" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="672">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/selfstudy/SGGJavaSE/thread/TestThread1.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/selfstudy/SGGJavaSE/thread/TestWindow3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-              <folding>
-                <element signature="e#194#195#0" expanded="true" />
-                <element signature="e#219#220#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="448">
+              <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/selfstudy/SGGJavaSE/thread/TestThread.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/selfstudy/SGGJavaSE/thread/TestWindow5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="49" column="51" lean-forward="true" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="80">
+              <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -69,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/java/jdk/javafx-src.zip!/javafx/scene/layout/Priority.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="85" column="9" lean-forward="true" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
+            <state relative-caret-position="1736">
+              <caret line="85" column="9" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -78,8 +66,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/java/jdk/src.zip!/java/lang/Thread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-499">
-              <caret line="150" column="33" lean-forward="true" selection-start-line="150" selection-start-column="33" selection-end-line="150" selection-end-column="33" />
+            <state relative-caret-position="3164">
+              <caret line="150" column="33" selection-start-line="150" selection-start-column="33" selection-end-line="150" selection-end-column="33" />
               <folding>
                 <element signature="e#42956#42957#0" expanded="true" />
                 <element signature="e#42987#42988#0" expanded="true" />
@@ -152,9 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/net/tf/chapter04/ArraysTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/javase.md" />
-        <option value="$PROJECT_DIR$/src/main/java/net/tf/chapter04/PrimitiveArrayTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/tf/chapter06/SimpleIntegerTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/net/tf/chapter06/EqualsPerson.java" />
@@ -200,6 +185,12 @@
         <option value="$PROJECT_DIR$/src/main/java/net/tf/selfstudy/SGGJavaSE/IO/TestIO2.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/tf/selfstudy/SGGJavaSE/thread/TestThread1.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/tf/selfstudy/SGGJavaSE/thread/TestThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/tf/selfstudy/SGGJavaSE/thread/TestThread2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/tf/selfstudy/SGGJavaSE/thread/TestWindow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/tf/selfstudy/SGGJavaSE/thread/TestWindow1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/tf/selfstudy/SGGJavaSE/thread/TestWindow3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/tf/selfstudy/SGGJavaSE/thread/TestWindow4.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/tf/selfstudy/SGGJavaSE/thread/TestWindow5.java" />
       </list>
     </option>
   </component>
@@ -224,7 +215,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -311,7 +301,7 @@
               <item name="selfstudy" type="462c0819:PsiDirectoryNode" />
               <item name="SGGJavaSE" type="462c0819:PsiDirectoryNode" />
               <item name="thread" type="462c0819:PsiDirectoryNode" />
-              <item name="TestThread.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="TestWindow3.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="basejava" type="b2602c69:ProjectViewProjectNode" />
@@ -334,12 +324,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552835150463" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553095879563" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -375,15 +366,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestThread">
+  <component name="RunManager" selected="Application.TestWindow5">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="net.tf.selfstudy.SGGJavaSE.thread.TestThread" />
+    <configuration name="TestThread2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.tf.selfstudy.SGGJavaSE.thread.TestThread2" />
       <module name="basejava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -396,8 +387,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestThread1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="net.tf.selfstudy.SGGJavaSE.thread.TestThread1" />
+    <configuration name="TestWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.tf.selfstudy.SGGJavaSE.thread.TestWindow" />
+      <module name="basejava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.tf.selfstudy.SGGJavaSE.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestWindow1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.tf.selfstudy.SGGJavaSE.thread.TestWindow1" />
+      <module name="basejava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.tf.selfstudy.SGGJavaSE.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestWindow3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.tf.selfstudy.SGGJavaSE.thread.TestWindow3" />
+      <module name="basejava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.tf.selfstudy.SGGJavaSE.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestWindow5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.tf.selfstudy.SGGJavaSE.thread.TestWindow5" />
       <module name="basejava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -412,57 +445,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestIO2.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="basejava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="net.tf.selfstudy.SGGJavaSE.IO.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="net.tf.selfstudy.SGGJavaSE.IO" />
-      <option name="MAIN_CLASS_NAME" value="net.tf.selfstudy.SGGJavaSE.IO.TestIO2" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestInOutPutStream.testBufferInOut" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="basejava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="net.tf.selfstudy.SGGJavaSE.IO.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="net.tf.selfstudy.SGGJavaSE.IO" />
-      <option name="MAIN_CLASS_NAME" value="net.tf.selfstudy.SGGJavaSE.IO.TestInOutPutStream" />
-      <option name="METHOD_NAME" value="testBufferInOut" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestInOutPutStream.testReader" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="basejava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="net.tf.selfstudy.SGGJavaSE.IO.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="net.tf.selfstudy.SGGJavaSE.IO" />
-      <option name="MAIN_CLASS_NAME" value="net.tf.selfstudy.SGGJavaSE.IO.TestInOutPutStream" />
-      <option name="METHOD_NAME" value="testReader" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -492,11 +474,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestThread" />
-        <item itemvalue="Application.TestThread1" />
-        <item itemvalue="JUnit.TestIO2.test" />
-        <item itemvalue="JUnit.TestInOutPutStream.testReader" />
-        <item itemvalue="JUnit.TestInOutPutStream.testBufferInOut" />
+        <item itemvalue="Application.TestWindow5" />
+        <item itemvalue="Application.TestWindow3" />
+        <item itemvalue="Application.TestWindow1" />
+        <item itemvalue="Application.TestWindow" />
+        <item itemvalue="Application.TestThread2" />
       </list>
     </recent_temporary>
   </component>
@@ -518,7 +500,10 @@
       <workItem from="1551704592863" duration="9652000" />
       <workItem from="1551940060993" duration="6762000" />
       <workItem from="1552305697054" duration="17411000" />
-      <workItem from="1552826087622" duration="7059000" />
+      <workItem from="1552826087622" duration="7868000" />
+      <workItem from="1552913301948" duration="4156000" />
+      <workItem from="1552981434453" duration="852000" />
+      <workItem from="1553092089348" duration="2842000" />
     </task>
     <servers />
   </component>
@@ -555,13 +540,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59216000" />
+    <option name="totallyTimeSpent" value="67875000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1065" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18381564" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2015625" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -570,7 +555,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32894737" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49785638" visible="true" weight="0.084745765" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49785638" visible="true" weight="0.063596494" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.042937852" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -578,11 +563,11 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3299435" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49624866" weight="0.3039548" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49624866" weight="0.46327683" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50375134" side_tool="true" weight="0.47231638" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49785638" weight="0.5220339" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" visible="true" weight="0.020364417" />
+      <window_info anchor="right" id="Ant Build" order="1" visible="true" weight="0.019791666" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" />
@@ -623,6 +608,12 @@
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/tf/selfstudy/SGGJavaSE/thread/TestWindow5.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -631,49 +622,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/chapter06/Output.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/chapter06/OutputTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-          <folding>
-            <element signature="e#171#172#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/chapter06/InterfaceExtendsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/chapter06/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <element signature="e#198#199#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/chapter06/CacheClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/chapter04/Cat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
@@ -986,6 +934,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/selfstudy/SGGJavaSE/IO/TestIO2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/selfstudy/SGGJavaSE/thread/TestThread1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding>
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/selfstudy/SGGJavaSE/thread/TestThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1344">
+          <caret line="49" column="51" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/selfstudy/SGGJavaSE/thread/TestThread2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1232">
+          <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/selfstudy/SGGJavaSE/thread/TestWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/java/jdk/javafx-src.zip!/javafx/scene/layout/Priority.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1736">
+          <caret line="85" column="9" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/java/jdk/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3164">
+          <caret line="150" column="33" selection-start-line="150" selection-start-column="33" selection-end-line="150" selection-end-column="33" />
+          <folding>
+            <element signature="e#42956#42957#0" expanded="true" />
+            <element signature="e#42987#42988#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://C:/java/jdk/src.zip!/java/nio/charset/StandardCharsets.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
@@ -1017,52 +1028,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/selfstudy/SGGJavaSE/IO/TestIO2.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/selfstudy/SGGJavaSE/thread/TestWindow1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="33" column="28" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="672">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/selfstudy/SGGJavaSE/thread/TestThread1.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/selfstudy/SGGJavaSE/thread/TestWindow3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding>
-            <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="448">
+          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/java/jdk/src.zip!/java/lang/Thread.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/selfstudy/SGGJavaSE/thread/TestWindow5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-499">
-          <caret line="150" column="33" lean-forward="true" selection-start-line="150" selection-start-column="33" selection-end-line="150" selection-end-column="33" />
-          <folding>
-            <element signature="e#42956#42957#0" expanded="true" />
-            <element signature="e#42987#42988#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/java/jdk/javafx-src.zip!/javafx/scene/layout/Priority.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="85" column="9" lean-forward="true" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/tf/selfstudy/SGGJavaSE/thread/TestThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="49" column="51" lean-forward="true" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="80">
+          <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
         </state>
       </provider>
     </entry>
